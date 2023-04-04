@@ -5,11 +5,11 @@ import Home from "./pages/Home"
 function App() {
 
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline text-red-500 cursor-pointer">
-        Hello world!
-        </h1>
-    </div>
+    <main className="ap transition-all ease-in">
+      <Home />
+      <Canvas />
+      <Customizer />
+    </main>
   )
 }
 
